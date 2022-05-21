@@ -7,10 +7,6 @@ const convertir = () => {
   //Salida
   let salida = document.getElementById("salida");
 
-  if(moneda.split() != ""){
-      moneda = " DE " + moneda;
-  }
-
   if (numero.split() != "" && !isNaN(numero)) {
     minusculas
       ? (salida.innerHTML = (numeroATexto(numero) + moneda).toLowerCase())
